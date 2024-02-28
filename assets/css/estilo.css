@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body, html {
+    height: 100%;
+}
+
+html{
+    background-image: url(/assets/images/livraria.png);
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    color:#272727;
+    font-size: 40px;
+    font-weight: 750;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    color:#272727;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+header{
+    width: 100%;
+    display: block;
+    height: 105px;
+    background-color: #E5E5E5;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+
+.header-text{
+    line-height: 0.3;
+    text-indent: 5%;
+}
+
+.header-text_2{
+    line-height: 0.01;
+    text-indent: 7.7%;
+}
+.header-text, .header-text_2 { display: block; }
